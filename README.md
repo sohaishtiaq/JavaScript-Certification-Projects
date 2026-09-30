@@ -18,11 +18,6 @@ Technologies:
 * JavaScript
 * HTML
 * CSS
-* Visual Studio Code
-* Git & GitHub
-Projects:
-Projects and coding exercises will be added throughout the certification as I progress through different JavaScript concepts.
-Goal:
-To build a strong foundation in JavaScript through consistent practice, hands-on projects, and problem-solving, while developing skills that can be applied to real-world web development.
-Progress:
-This repository will be updated regularly as I complete new exercises and projects during the certification.
+Projects:Projects and coding exercises will be added throughout the certification as I progress through different JavaScript concepts
+Goal:To build a strong foundation in JavaScript through consistent practice, hands-on projects, and problem-solving, while developing skills that can be applied to real-world web development.
+Progress:This repository will be updated regularly as I complete new exercises and projects during the certification.
