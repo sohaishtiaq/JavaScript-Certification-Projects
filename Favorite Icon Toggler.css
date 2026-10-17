@@ -1,0 +1,18 @@
+.filled {
+  color: red;
+}
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.favorite-icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.favorite-icon.filled {
+  color: red;
+}
