@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#text-input {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#char-count {
+  color: black;
+}
+
+#char-count.limit-reached {
+  color: red;
+}
