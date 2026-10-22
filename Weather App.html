@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>City Weather</title>
+</head>
+<body>
+  <h1>City Weather</h1>
+
+  <label for="city-select">Choose a city:</label>
+  <select id="city-select">
+    <option value=""></option>
+    <option value="new york">New York</option>
+    <option value="los angeles">Los Angeles</option>
+    <option value="chicago">Chicago</option>
+    <option value="paris">Paris</option>
+    <option value="tokyo">Tokyo</option>
+    <option value="london">London</option>
+  </select>
+
+  <button id="get-weather-btn" type="button">Get Weather</button>
+
+  <section id="weather-info">
+    <h2 id="location">N/A</h2>
+    <img id="weather-icon" src="" alt="Weather icon">
+    <p>Temperature: <span id="main-temperature">N/A</span></p>
+    <p>Feels like: <span id="feels-like">N/A</span></p>
+    <p>Humidity: <span id="humidity">N/A</span></p>
+    <p>Wind speed: <span id="wind">N/A</span></p>
+    <p>Wind gust: <span id="wind-gust">N/A</span></p>
+    <p>Weather: <span id="weather-main">N/A</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
