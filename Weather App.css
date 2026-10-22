@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#weather-info {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+#location {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+#weather-info p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 1rem;
+}
+
+#weather-info p:last-child {
+  border-bottom: none;
+}
+
+#weather-info span {
+  font-weight: bold;
+  text-align: right;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+#city-select {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  padding: 13px 16px;
+  margin-top: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #1e293b;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+#city-select:focus {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.3);
+}
+
+#get-weather-btn {
+  margin-top: 18px;
+  padding: 13px 28px;
+  border: none;
+  border-radius: 12px;
+  background: #38bdf8;
+  color: #082f49;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#get-weather-btn:hover {
+  background: #7dd3fc;
+  transform: translateY(-2px);
+}
+
+#get-weather-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 35px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #weather-info {
+    padding: 22px 18px;
+  }
+
+  #location {
+    font-size: 1.5rem;
+  }
+
+  #weather-info p {
+    font-size: 0.9rem;
+  }
+}
